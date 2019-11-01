@@ -1,0 +1,149 @@
+.zs3{
+  width:120rpx;
+  margin-left: 180rpx;
+}
+.boy3{
+  width:45%;
+  position:absolute;
+  left:50%;
+  top:20rpx;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+}
+.speak3{
+  position:absolute;
+  top:90rpx;
+  left:80rpx;
+}
+.laguage3{
+  width:230rpx;
+}
+.im3{
+  width:48rpx;
+  position: absolute;
+  left:50%;
+  top:15rpx;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+}
+.groom3{
+  width:150rpx;
+  position: absolute;
+  left:50%;
+  bottom:20rpx;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+}
+.diao3{
+  width:130rpx;
+  position:absolute;
+  top:-80rpx;
+  right:30rpx;
+}
+.l3{
+  width:180rpx;
+  position: absolute;
+  top:120rpx;
+  left:120rpx;
+}
+.r3{
+  width:180rpx;
+  position: absolute;
+  top:150rpx;
+  right:150rpx;
+}
+.namewrap{
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+  top:340rpx;
+}
+.nbg3{
+  width:450rpx;
+}
+.xl3{
+  width:90rpx;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  transform: -webkit-translateY(-50%);
+  left:130rpx;
+}
+.boyname3{
+  font-size: 45rpx;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  transform: -webkit-translateY(-50%);
+  left: 240rpx;
+  color:rgb(149, 91, 15);
+}
+.zsimg3{
+  width:100%;
+  position: absolute;
+  left:0;
+  top:310rpx;
+}
+.headimgwrap{
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+  top:440rpx;
+}
+.kuang3{
+  width:600rpx;
+}
+.boyimg3{
+  width:545rpx;
+  height:83%;
+  position: absolute;
+  left:20rpx;
+  top:30rpx;
+}
+.xin3{
+  width:230rpx;
+  position: absolute;
+  right:150rpx;
+  top:200rpx;
+}
+.xrz3{
+  width:120rpx;
+  position: absolute;
+  bottom:260rpx;
+  left:20rpx;
+}
+.g3{
+  width:150rpx;
+  position: absolute;
+  bottom:280rpx;
+  left:160rpx;
+}
+.rr3{
+  width:100rpx;
+  position: absolute;
+  bottom:280rpx;
+  left:320rpx;
+}
+.lh3{
+  width:160rpx;
+  position: absolute;
+  bottom:260rpx;
+  left:440rpx;
+}
+.xrq3{
+  width:100rpx;
+  position: absolute;
+  bottom:270rpx;
+  right:40rpx;
+}
+.ofoot{
+  position:absolute;
+  bottom:-220rpx;
+  width:100%;
+}
+.oground{
+  width:100%;
+  height:100rpx;
+}

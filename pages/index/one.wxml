@@ -1,0 +1,23 @@
+<image class="oleft" mode='widthFix' src="/images/left.jpg"></image>
+<image class='oright' mode='widthFix' src='/images/right.jpg'></image>
+<image class="oflower" mode='widthFix' src="/images/flower.jpg"></image>
+<image class="owedding" mode='widthFix' src="/images/wedding.jpg"></image>
+<view class="ot">{{time}}</view>
+<image class="obanlv" mode="widthFix" src="/images/banlv.jpg"></image>
+<image class="ome" mode="widthFix" src="/images/me.jpg"></image>
+<image class="oido" mode="widthFix" src="/images/ido.jpg"></image>
+<image class="ogift" mode="widthFix" src="/images/gift.jpg"></image>
+<view class="onj">
+  <image src="/images/namebg.jpg" mode="widthFix" class="onamebg"></image>
+  <image src="/images/xin.jpg" mode="widthFix" class="oxin"></image>
+  <view class="obn">{{boyname}}</view>
+  <view class="ogn">{{girlname}}</view>
+</view>
+<view class="ofoot">
+  <image src="/images/ground.jpg" class="oground" mode="widthFix"></image>
+  <image mode="widthFix" src="/images/vase.jpg" class="ovase"></image>
+  <image mode="widthFix" src="/images/xrz.jpg" class="oxrz"></image>
+  <image mode="widthFix" src="/images/rr.jpg" class="orr"></image>
+  <image mode="widthFix" src="/images/lz.jpg" class="olz"></image>
+  <image mode="widthFix" src="/images/pz.jpg" class="opz"></image>
+</view>

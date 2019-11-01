@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "zhLoading":"/components/component-zxLoading/component-zxLoading",
+    "boygirl":"/components/boygirl/boygirl"
+  }
+}

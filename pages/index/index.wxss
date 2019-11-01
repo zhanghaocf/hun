@@ -1,0 +1,232 @@
+page{
+  height:100%;
+  background-image: url("https://7a68-zhcf-6pee6-1257706133.tcb.qcloud.la/bg.jpg?sign=66396b772603aa9a838c705d3ef6e30a&t=1571240029");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  height:100%;
+}
+.step{
+  height:100%;
+  position:relative;
+  overflow: hidden;
+}
+/* one */
+.oleft{
+  width:50%;
+  position:absolute;
+  left:0;
+  top:0;
+}
+.oright{
+  width:50%;
+  position:absolute;
+  right:0;
+  top:0;
+}
+.oflower{
+  width:220rpx;
+  position:absolute;
+  left:50%;
+  top:-20rpx;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+}
+.owedding{
+  width:80%;
+  position:absolute;
+  top:120rpx;
+  left:50%;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+}
+.ot{
+  position:absolute;
+  top:230rpx;
+  left:50%;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+}
+.obanlv{
+  width:90%;
+  position:absolute;
+  top:250rpx;
+}
+.ome{
+  width:180rpx;
+  position:absolute;
+  top:270rpx;
+  right:0;
+}
+.oido{
+  width:180rpx;
+  position:absolute;
+  top:270rpx;
+  left:20rpx;
+}
+.ogift{
+  width:200rpx;
+  position:absolute;
+  top:580rpx;
+  left:50%;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+}
+.onamebg{
+  width:580rpx;
+}
+.onj{
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+  top:750rpx;
+}
+.oxin{
+  width:300rpx;
+  position:absolute;
+  left:20rpx;
+  bottom:50rpx;
+}
+.obn,.ogn{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  transform: -webkit-translateY(-50%);
+  font-size: 40rpx
+}
+.obn{
+  right:328rpx;
+}
+.ogn{
+  right:128rpx;
+}
+.ofoot{
+  position:absolute;
+  bottom:-220rpx;
+  width:100%;
+}
+.oground{
+  width:100%;
+  height:100rpx;
+}
+.ovase{
+  left:20rpx;
+  width:100rpx;
+  position:absolute;
+  bottom:280rpx;
+}
+.oxrz{
+  width:120rpx;
+  left:130rpx;
+  position:absolute;
+  bottom:270rpx;
+}
+.orr{
+  width:130rpx;
+  left:260rpx;
+  position:absolute;
+  bottom:310rpx;
+}
+.olz{
+  width:180rpx;
+  left:400rpx;
+  position:absolute;
+  bottom:310rpx;
+}
+.opz{
+  width:150rpx;
+  left:590rpx;
+  position:absolute;
+  bottom:280rpx;
+}
+/* two */
+.ttwrap{
+  height:150rpx;
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  width:100%;
+}
+.ttop{
+  transform: rotate(180deg) scale(1.3,1);
+  position: absolute;
+  bottom:0;
+  width:100%;
+}
+.tcot{
+  position:absolute;
+  width: 90%;
+  height:900rpx;
+  top:150rpx;
+  left:50%;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+  box-sizing: border-box;
+  padding:30rpx 100rpx 200rpx;
+}
+.tbg{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.tbird{
+  width:150rpx;
+  position: absolute;
+  left:-20rpx;
+  top:-20rpx;
+}
+.thua{
+  width:230rpx;
+  position: absolute;
+  right:-80rpx;
+  top:-130rpx;
+}
+.tlqq,.trqq{
+  width:120rpx;
+  position: absolute;
+}
+.tlqq{
+  left:-20rpx;
+  top:180rpx;
+}
+.trqq{
+  bottom:150rpx;
+  right:-30rpx;
+}
+.thh{
+  width:120rpx;
+  position: absolute;
+  left:0;
+  bottom:100rpx;
+}
+.tfoot{
+  position: absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:120rpx;
+}
+.tmuban{
+  width: 100%;
+  display: block;
+}
+.tmxrz{
+  width:70%;
+  position: absolute;
+  bottom:80rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+}
+.tdetail{
+  text-align: center;
+  white-space: pre-line;
+  font-size: 32rpx;
+  line-height: 58rpx;
+}
+/* three */

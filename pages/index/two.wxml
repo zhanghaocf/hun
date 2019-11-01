@@ -1,0 +1,16 @@
+<view class="ttwrap">
+ <image src="/images/ground.jpg" mode="widthFix" class="ttop"></image>
+</view>
+<view class="tcot">
+  <view class="tdetail">{{detail}}</view>
+  <image src="/images/twobg.jpg" class="tbg"></image>
+  <image class="tbird" src="/images/bird.jpg" mode="widthFix"></image>
+  <image class="thua" src="/images/hua.jpg" mode="widthFix"></image>
+  <image class="tlqq" src="/images/lqq.jpg" mode="widthFix"></image>
+  <image class="trqq" src="/images/rqq.jpg" mode="widthFix"></image>
+  <image class="thh" src="/images/hh.jpg" mode="widthFix"></image>
+</view>
+<view class="tfoot">
+  <image src="/images/muban.jpg" mode="widthFix" class="tmuban"></image>
+  <image src="/images/mxrz.jpg" mode="widthFix" class="tmxrz"></image>
+</view>

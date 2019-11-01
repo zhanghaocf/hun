@@ -1,0 +1,15 @@
+<swiper class="container" vertical="true">
+  <swiper-item class='step'>
+    <include src="three.wxml" />
+  </swiper-item>
+  <swiper-item class='step'>
+    <include src="one.wxml" />
+  </swiper-item>
+  <swiper-item class='step'>
+    <include src="two.wxml" />
+  </swiper-item>
+  <swiper-item class='step'>1</swiper-item>
+</swiper>
+<view hidden="{{!isLoading}}">
+  <zhLoading>祝福中</zhLoading>
+</view>

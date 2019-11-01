@@ -1,0 +1,29 @@
+<image class="zs3" mode="widthFix" src="/images/hh.jpg"></image>
+<image src="/images/l3.jpg" mode="widthFix" class="l3"></image>
+<image src="/images/r3.jpg" mode="widthFix" class="r3"></image>
+<view class="speak3">
+  <image src="/images/laguage3.jpg" mode="widthFix" class="laguage3"></image>
+  <image src="/images/im3.jpg" mode="widthFix" class="im3"></image>
+  <image src="/images/groom.jpg" mode="widthFix" class="groom3"></image>
+</view>
+<image src="/images/diao3.jpg" mode="widthFix" class="diao3"></image>
+<image class="boy3" mode="widthFix" src="/images/boy3.jpg"></image>
+<image src="/images/xin.jpg" mode="widthFix" class="xin3"></image>
+<view class="namewrap">
+  <image src="/images/namebg.jpg" mode="widthFix" class="nbg3"></image>
+  <image src="/images/xl.jpg" mode="widthFix" class="xl3"></image>
+  <view class="boyname3">: {{boyname}}</view>
+</view>
+<image src="/images/zs3.jpg" mode="widthFix" class="zsimg3"></image>
+<view class="headimgwrap">
+  <image src="/images/kuang.jpg" mode="widthFix" class="kuang3"></image>
+  <image src="{{boyimg}}" mode="aspectFill" class="boyimg3"></image>
+</view>
+<view class="ofoot">
+  <image src="/images/ground.jpg" class="oground" mode="widthFix"></image>
+  <image mode="widthFix" src="/images/xrz3.jpg" class="xrz3"></image>
+  <image mode="widthFix" src="/images/g3.jpg" class="g3"></image>
+  <image mode="widthFix" src="/images/rr3.jpg" class="rr3"></image>
+  <image mode="widthFix" src="/images/lh3.jpg" class="lh3"></image>
+  <image mode="widthFix" src="/images/xrq3.jpg" class="xrq3"></image>
+</view>
