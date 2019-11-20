@@ -1,0 +1,27 @@
+<view class="kuang5">
+  <image mode="widthFix" class="l5" src="/images/l3.jpg"></image>
+  <image mode="widthFix" class="r5" src="/images/r3.jpg"></image>
+  <image mode="widthFix" class="hh5" src="/images/hh.jpg"></image>
+  <image mode="widthFix" class="bl5" src="/images/bl.jpg"></image>
+  <image mode="widthFix" class="gr5" src="/images/gr.jpg"></image>
+  <image mode="widthFix" class="hs5" src="/images/hunsha.jpg"></image>
+  <view class="merry5wrap">
+    <image mode="widthFix" class="bg5" src="/images/namebg.jpg"></image>
+    <image mode="widthFix" src="/images/tbwy.jpg" class="tbwy5"></image>
+    <image mode="widthFix" src="/images/xin.jpg" class="xin5"></image>
+  </view>
+</view>
+<view class="photo5wrap">
+  <image src="{{boyl}}" mode="aspectFill" class="boyl5"></image>
+  <image src="{{girlr}}" mode="aspectFill" class="girl5"></image>
+</view>
+<image mode="widthFix" class="diao5 diao5left" src="/images/diao3.jpg"></image>
+<image mode="widthFix" class="diao5 diao5right" src="/images/diao3.jpg"></image>
+<view class="tfoot foot5">
+  <image src="/images/muban.jpg" mode="widthFix" class="tmuban"></image>
+  <image mode="widthFix" src="/images/xrz3.jpg" class="xrz5"></image>
+  <image mode="widthFix" src="/images/g3.jpg" class="g5"></image>
+  <image mode="widthFix" src="/images/rr3.jpg" class="rr5"></image>
+  <image mode="widthFix" src="/images/lh3.jpg" class="lh5"></image>
+  <image mode="widthFix" src="/images/xrq3.jpg" class="xrq5"></image>
+</view>

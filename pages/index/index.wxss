@@ -78,6 +78,7 @@ page{
 }
 .onj{
   position:absolute;
+  width:580rpx;
   left:50%;
   transform: translateX(-50%);
   transform: -webkit-translateX(-50%);
@@ -100,7 +101,7 @@ page{
   right:328rpx;
 }
 .ogn{
-  right:128rpx;
+  right:170rpx;
 }
 .ofoot{
   position:absolute;
@@ -229,4 +230,230 @@ page{
   font-size: 32rpx;
   line-height: 58rpx;
 }
-/* three */
+/* five */
+.foot5{
+  height:65rpx;
+  z-index: 2;
+}
+.xrz5{
+  width:100rpx;
+  position: absolute;
+  bottom:30rpx;
+  left:40rpx;
+}
+.g5{
+  width:150rpx;
+  position: absolute;
+  bottom:30rpx;
+  left:170rpx;
+}
+.rr5{
+  width:100rpx;
+  position: absolute;
+  bottom:30rpx;
+  left:340rpx;
+}
+.lh5{
+  width:140rpx;
+  position: absolute;
+  bottom:30rpx;
+  left:460rpx;
+}
+.xrq5{
+  width:100rpx;
+  position: absolute;
+  bottom:30rpx;
+  right:40rpx;
+}
+.diao5{
+  width:130rpx;
+  position:absolute;
+  z-index: 1;
+  top:0
+}
+.diao5left{
+  left:0
+}
+.diao5right{
+  right:0;
+}
+.kuang5{
+  display: flex;
+  position:absolute;
+  left:50%;
+  top:60rpx;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+}
+.gr5{
+  width:270rpx;
+  flex-shrink: 0;
+  position: relative;
+  top:-15rpx;
+}
+.bl5{
+  width:230rpx;
+  flex-shrink: 0;
+  margin-right: -80rpx;
+  position: relative;
+  z-index: 1;
+}
+.l5{
+  width:180rpx;
+  position:absolute;
+  top:0;
+  left:-100rpx;
+}
+.r5{
+  width:180rpx;
+  position:absolute;
+  top:0;
+  right:-50rpx;
+}
+.hh5{
+  width:100rpx;
+  position: absolute;
+  top:-60rpx;
+  left:140rpx;
+}
+.hs5{
+  width:250rpx;
+  position: absolute;
+  right:10rpx;
+  top:-36rpx;
+}
+.merry5wrap{
+  position: absolute;
+  bottom:-70rpx;
+  left:50%;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+  z-index: 2;
+}
+.bg5{
+  width:400rpx;
+}
+.tbwy5{
+  width:280rpx;
+  position: absolute;
+  left:40rpx;
+  top:50%;
+  transform: translateY(-50%);
+  transform: -webkit-translateY(-50%);
+}
+.xin5{
+  width:250rpx;
+  position: absolute;
+  bottom:35rpx;
+  right:25rpx;
+}
+.photo5wrap{
+  border:10rpx solid lightgoldenrodyellow;
+  padding:10rpx;
+  position: absolute;
+  top:380rpx;
+  width:100%;
+  box-sizing: border-box;
+  z-index: 2;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+}
+.boyl5,.girl5{
+  width:49%;
+  height:500rpx;
+}
+/* six */
+.lh6{
+  width:120rpx;
+}
+.rh6{
+  width:150rpx;
+}
+.sixright{
+  position: absolute;
+  right:70rpx;
+  top:150rpx;
+}
+.xin6{
+  width:200rpx;
+  position: absolute;
+  right:80rpx;
+  bottom:160rpx;
+}
+.fl6{
+  font-size: 24rpx;
+  font-weight: bold;
+  transform: rotate(90deg);
+  position: absolute;
+  top:30rpx;
+  right:-100rpx;
+}
+.qq6{
+  width:120rpx;
+  position: absolute;
+  left:20rpx;
+  top:50%;
+}
+.bear6{
+  width:250rpx;
+  position: absolute;
+  left:20rpx;
+  bottom:100rpx;
+  z-index: 1;
+}
+.gift6{
+  width:160rpx;
+  position: absolute;
+  left:330rpx;
+  bottom:80rpx;
+  z-index: 1;
+}
+.topimg6{
+  position: absolute;
+  left:50rpx;
+  top:150rpx;
+}
+.tbg6{
+  width:320rpx;
+  height:420rpx;
+}
+.lsix6{
+  width:300rpx;
+  height:400rpx;
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin-left: -150rpx;
+  margin-top: -200rpx;
+}
+.botimg6{
+  position: absolute;
+  right:5rpx;
+  top:400rpx;
+}
+.tbg62{
+  width:420rpx;
+  height:530rpx;
+}
+.lsix62{
+  width:400rpx;
+  height:510rpx;
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin-left: -200rpx;
+  margin-top: -255rpx;
+}
+.hua6{
+  width:160rpx;
+  position: absolute;
+  right:-50rpx;
+  bottom:-30rpx;
+}
+.cao6{
+  width:125rpx;
+  position: absolute;
+  left:-120rpx;
+  top:180rpx;
+}

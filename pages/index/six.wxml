@@ -1,0 +1,25 @@
+<image class="oleft" mode='widthFix' src="/images/left.jpg"></image>
+<image class='oright' mode='widthFix' src='/images/right.jpg'></image>
+<image class="oflower" mode='widthFix' src="/images/flower.jpg"></image>
+<view class="sixright">
+  <image mode="widthFix" src="/images/110.jpg" class="rh6"></image>
+  <image mode="widthFix" src="/images/111.jpg" class="lh6"></image>
+  <image mode="widthFix" src="/images/xin.jpg" class="xin6"></image>
+  <view class="fl6">FOREVER LOVE</view>
+</view>
+<image mode="widthFix" src="/images/108.jpg" class="qq6"></image>
+<image mode="widthFix" src="/images/112.jpg" class="bear6"></image>
+<image mode="widthFix" src="/images/gift.jpg" class="gift6"></image>
+<view class="topimg6">
+  <image mode="aspectFill" src="/images/twobg.jpg" class="tbg6"></image>
+  <image mode="aspectFill" src="{{six1}}" class="lsix6"></image>
+</view>
+<view class="botimg6">
+  <image mode="aspectFill" src="/images/twobg.jpg" class="tbg62"></image>
+  <image mode="aspectFill" src="{{six2}}" class="lsix62"></image>
+  <image mode="widthFix" src="/images/l3.jpg" class="cao6"></image>
+  <image mode="widthFix" src="/images/flower.jpg" class="hua6"></image>
+</view>
+<view class="ofoot">
+  <image src="/images/ground.jpg" class="oground" mode="widthFix"></image>
+</view>

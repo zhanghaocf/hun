@@ -2,13 +2,17 @@
   width:120rpx;
   margin-left: 180rpx;
 }
-.boy3{
+.boy3,.girl3{
   width:45%;
   position:absolute;
   left:50%;
   top:20rpx;
   transform: translateX(-50%);
   transform: -webkit-translateX(-50%);
+}
+.girl3{
+  width:42%;
+  top:35rpx;
 }
 .speak3{
   position:absolute;
@@ -26,13 +30,16 @@
   transform: translateX(-50%);
   transform: -webkit-translateX(-50%);
 }
-.groom3{
+.groom3,.bride3{
   width:150rpx;
   position: absolute;
   left:50%;
   bottom:20rpx;
   transform: translateX(-50%);
   transform: -webkit-translateX(-50%);
+}
+.bride3{
+  bottom:30rpx;
 }
 .diao3{
   width:130rpx;

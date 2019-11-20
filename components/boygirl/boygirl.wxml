@@ -4,20 +4,23 @@
 <view class="speak3">
   <image src="/images/laguage3.jpg" mode="widthFix" class="laguage3"></image>
   <image src="/images/im3.jpg" mode="widthFix" class="im3"></image>
-  <image src="/images/groom.jpg" mode="widthFix" class="groom3"></image>
+  <image wx:if="{{boyname}}" src="/images/groom.jpg" mode="widthFix" class="groom3"></image>
+  <image wx:if="{{girlname}}" src="/images/bride.jpg" mode="widthFix" class="bride3"></image>
 </view>
 <image src="/images/diao3.jpg" mode="widthFix" class="diao3"></image>
-<image class="boy3" mode="widthFix" src="/images/boy3.jpg"></image>
+<image wx:if="{{boyname}}" class="boy3" mode="widthFix" src="/images/boy3.jpg"></image>
+<image wx:if="{{girlname}}" class="girl3" mode="widthFix" src="/images/girl4.jpg"></image>
 <image src="/images/xin.jpg" mode="widthFix" class="xin3"></image>
 <view class="namewrap">
   <image src="/images/namebg.jpg" mode="widthFix" class="nbg3"></image>
-  <image src="/images/xl.jpg" mode="widthFix" class="xl3"></image>
-  <view class="boyname3">: {{boyname}}</view>
+  <image wx:if="{{boyname}}" src="/images/xl.jpg" mode="widthFix" class="xl3"></image>
+  <image wx:if="{{girlname}}" src="/images/xn.jpg" mode="widthFix" class="xl3"></image>
+  <view class="boyname3">: {{boyname||girlname}}</view>
 </view>
 <image src="/images/zs3.jpg" mode="widthFix" class="zsimg3"></image>
 <view class="headimgwrap">
   <image src="/images/kuang.jpg" mode="widthFix" class="kuang3"></image>
-  <image src="{{boyimg}}" mode="aspectFill" class="boyimg3"></image>
+  <image src="{{img}}" mode="aspectFill" class="boyimg3"></image>
 </view>
 <view class="ofoot">
   <image src="/images/ground.jpg" class="oground" mode="widthFix"></image>
