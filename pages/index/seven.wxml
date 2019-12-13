@@ -1,0 +1,18 @@
+<view class="wrap7">
+  <view class="top7">
+    <image mode="widthFix" class="topfont7" src="/images/128.jpg"></image>
+    <image class="tl7" mode="widthFix" src="/images/148.jpg"></image>
+    <image class="tr7" mode="widthFix" src="/images/147.jpg"></image>
+    <image class="tbird7" mode="widthFix" src="/images/bird.jpg"></image>
+    <image class="tflower7" mode="widthFix" src="/images/diao3.jpg"></image>
+  </view>
+  <view class="middle7">
+    <image mode="aspectFill" class="middel7bg" src="/images/twobg.jpg"></image>
+    <image mode="aspectFit" class="sevenimg" src="{{seven}}"></image>
+  </view>
+  <view class="foot7">
+    <image src="/images/muban.jpg" mode="widthFix" class="tmuban"></image>
+    <image mode="widthFix" src="/images/xrz3.jpg" class="xrz7"></image>
+    <image mode="widthFix" src="/images/lh3.jpg" class="lh7"></image>
+  </view>
+</view>

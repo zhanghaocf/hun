@@ -1,0 +1,397 @@
+.oleft{
+  width:50%;
+  position:absolute;
+  left:0;
+  top:0;
+  animation:0.8s linear
+}
+.one .oleft{
+  animation-name: oleft;
+}
+@keyframes oleft{
+  from{
+    left:600rpx;
+    opacity: 0
+  }
+  to{}
+}
+.oright{
+  width:50%;
+  position:absolute;
+  right:0;
+  top:0;
+  animation:0.8s linear
+}
+.one .oright{
+  animation-name: oright;
+}
+@keyframes oright{
+  from{
+    right:600rpx;
+    opacity: 0
+  }
+  to{}
+}
+.oflower{
+  width:220rpx;
+  position:absolute;
+  left:50%;
+  top:-20rpx;
+  opacity: 0;
+  transform-origin: center center;
+  transform: translateX(-50%) scale(0.2,0.2);
+  animation: 0.4s 0.8s linear forwards;
+}
+.one .oflower{
+  animation-name: oflower;
+}
+@keyframes oflower{
+  from{}
+  to{
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+}
+.owedding{
+  width:80%;
+  position:absolute;
+  top:120rpx;
+  left:50%;
+  transform: translateX(-50%);
+  animation: 0.8s linear;
+}
+.one .owedding{
+  animation-name: owedding
+}
+@keyframes owedding{
+  from{
+    opacity: 0;
+    transform: translateX(-100%) rotate(-90deg)
+  }
+  to{}
+}
+.ot{
+  position:absolute;
+  top:230rpx;
+  left:50%;
+  opacity: 0;
+  transform: translateX(-50%) scale(0);
+  animation: 0.8s 1s linear forwards;
+}
+.one .ot{
+  animation-name: ot
+}
+@keyframes ot{
+  from{}
+  70%{
+    opacity: 0.8;
+    transform: translateX(-50%) scale(0.9);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+}
+.obanlv{
+  width:90%;
+  position:absolute;
+  top:250rpx;
+  opacity: 0;
+  transform: rotateY(90deg);
+  animation: 0.8s 1s linear forwards;
+}
+.one .obanlv{
+  animation-name: obanlv;
+}
+@keyframes obanlv{
+  from{}
+  50%{
+    opacity: 1;
+    transform: rotateY(0);
+  }
+  70%{
+    opacity: 1;
+    transform: rotateY(30deg);
+  }
+  90%{
+    opacity: 1;
+    transform: rotateY(0);
+  }
+  to{
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+.olc{
+  width:180rpx;
+  position: absolute;
+  left:80rpx;
+  top:420rpx;
+  opacity: 0;
+  animation: 0.6s 1.6s linear forwards;
+}
+.one .olc{
+  animation-name: olc
+}
+@keyframes olc{
+  from{}
+  to{
+    opacity: 1;
+    left:0;
+  }
+}
+.orc{
+  width:180rpx;
+  position: absolute;
+  right:80rpx;
+  top:420rpx;
+  opacity: 0;
+  animation: 0.6s 1.6s linear forwards;
+}
+.one .orc{
+  animation-name: orc
+}
+@keyframes orc{
+  from{}
+  to{
+    opacity: 1;
+    right:20rpx;
+  }
+}
+.ogift{
+  width:200rpx;
+  position:absolute;
+  top:580rpx;
+  left:0;
+  opacity: 0;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+  animation: 0.8s 2s ease-out forwards;
+}
+.one .ogift{
+  animation-name: ogift
+}
+@keyframes ogift{
+  from{}
+  to{
+    opacity: 1;
+    left:50%;
+  }
+}
+.ome{
+  width:180rpx;
+  position:absolute;
+  top:270rpx;
+  right:100rpx;
+  opacity: 0;
+  transform: rotate(-360deg);
+  animation: 0.8s 2s ease-in forwards;
+}
+.one .ome{
+  animation-name: ome;
+}
+@keyframes ome{
+  from{}
+  25%{
+    transform: rotate(-270deg);
+  }
+  50%{
+    transform: rotate(-180deg);
+  }
+  75%{
+    transform: rotate(-90deg);
+  }
+  to{
+    opacity: 1;
+    right:0;
+    transform: rotate(0deg);
+  }
+}
+.oido{
+  width:180rpx;
+  position:absolute;
+  top:270rpx;
+  left:-20rpx;
+  opacity: 0;
+  transform: rotate(-360deg);
+  animation: 0.8s 2.4s ease-in forwards;
+}
+.one .oido{
+  animation-name: oido
+}
+@keyframes oido{
+  from{}
+  25%{
+    transform: rotate(-270deg);
+  }
+  50%{
+    transform: rotate(-180deg);
+  }
+  75%{
+    transform: rotate(-90deg);
+  }
+  to{
+    opacity: 1;
+    left:20rpx;
+    transform: rotate(0deg);
+  }
+}
+.onamebg{
+  width:580rpx;
+}
+.onj{
+  position:absolute;
+  width:580rpx;
+  left:0;
+  transform: translateX(-50%);
+  transform: -webkit-translateX(-50%);
+  top:750rpx;
+  opacity: 0;
+  animation: 0.8s 2.6s linear forwards;
+}
+.one .onj{
+  animation-name: onj;
+}
+@keyframes onj{
+  from{}
+  to{
+    opacity: 1;
+    left:50%;
+  }
+}
+.oxin{
+  width:300rpx;
+  position:absolute;
+  left:-220rpx;
+  bottom:350rpx;
+  opacity: 0;
+  animation: 0.8s 2.8s ease-in forwards;
+}
+.one .oxin{
+  animation-name: oxin;
+}
+@keyframes oxin{
+  from{}
+  to{
+    opacity: 1;
+    left:20rpx;
+    bottom:50rpx;
+  }
+}
+.obn,.ogn{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  transform: -webkit-translateY(-50%);
+  font-size: 40rpx
+}
+.obn{
+  right:-500rpx;
+  opacity: 0;
+  animation: 0.8s 2.6s ease-in-out forwards;
+}
+.one .obn{
+  animation-name: obn;
+}
+@keyframes obn{
+  from{}
+  to{
+    opacity: 1;
+    right:328rpx;
+  }
+}
+.ogn{
+  right:400rpx;
+  opacity: 0;
+  animation: 0.4s 3s linear forwards;
+}
+.one .ogn{
+  animation-name: ogn;
+}
+@keyframes ogn{
+  from{}
+  to{
+    opacity: 1;
+    right:170rpx;
+  }
+}
+.ofoot{
+  position:absolute;
+  bottom:-520rpx;
+  width:100%;
+  opacity: 0;
+  animation: 0.6s 2.8s ease-in forwards;
+}
+.one .ofoot{
+  animation-name: ofoot;
+}
+@keyframes ofoot{
+  from{}
+  50%{
+    bottom:-180rpx;
+  }
+  75%{
+    bottom:-240rpx;
+  }
+  to{
+    bottom: -220rpx;
+    opacity: 1;
+  }
+}
+.oground{
+  width:100%;
+  height:100rpx;
+}
+.ovase{
+  left:20rpx;
+  width:100rpx;
+  position:absolute;
+  bottom:280rpx;
+}
+.oxrz{
+  width:120rpx;
+  left:130rpx;
+  position:absolute;
+  bottom:270rpx;
+}
+.orr{
+  width:130rpx;
+  left:260rpx;
+  position:absolute;
+  bottom:310rpx;
+}
+.olz{
+  width:180rpx;
+  left:400rpx;
+  position:absolute;
+  bottom:310rpx;
+}
+.opz{
+  width:150rpx;
+  left:1090rpx;
+  position:absolute;
+  bottom:280rpx;
+  opacity: 0;
+  animation: 0.8s 3.4s ease-out forwards;
+}
+.one .opz{
+  animation-name: opz;
+}
+@keyframes opz{
+  from{
+    opacity: 1;
+  }
+  50%{
+    left:490rpx;
+  }
+  75%{
+    left:660rpx;
+  }
+  90%{
+    left:610rpx;
+  }
+  to{
+    left:590rpx;
+    opacity: 1;
+  }
+}

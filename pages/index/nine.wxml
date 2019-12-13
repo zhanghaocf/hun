@@ -1,0 +1,26 @@
+<view class="wrap7">
+  <view class="top9">
+    <image class="tl7 tl9" mode="widthFix" src="/images/148.jpg"></image>
+    <image class="tr7 tr9" mode="widthFix" src="/images/147.jpg"></image>
+    <view class="foot9">
+      <image src="/images/muban.jpg" mode="widthFix" class="tmuban"></image>
+      <view class="kuang9">
+        <image src="/images/kuang.jpg" class="kpng9" mode="widthFix"></image>
+        <image src="{{nine}}" class="ninepng" mode="aspectFit"></image>
+      </view>
+      <image src="/images/gift.jpg" mode="widthFix" class="gift9"></image>
+      <image src="/images/hua.jpg" mode="widthFix" class="hua9"></image>
+    </view>
+  </view>
+  <view class="bottom9">
+    <image src="/images/twobg.jpg" mode="aspectFill" class="bg9"></image>
+    <image src="/images/4.jpg" mode="widthFix" class="shou9"></image>
+    <image src="/images/bird.jpg" mode="widthFix" class="bird9"></image>
+    <image src="/images/hh.jpg" mode="widthFix" class="hh9"></image>
+    <image src="/images/rqq.jpg" mode="widthFix" class="rqq9"></image>
+    <image src="/images/151.jpg" mode="widthFix" class="gl9"></image>
+    <view class="xfwrap">
+      {{endWord}}
+    </view>
+  </view>
+</view>

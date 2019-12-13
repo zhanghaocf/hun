@@ -1,14 +1,19 @@
-<swiper class="container" vertical="true">
-  <swiper-item class='step'>
-    <include src="six.wxml" />
-  </swiper-item>
-  <swiper-item class='step'>
-    <include src="five.wxml" />
-  </swiper-item>
-  <swiper-item class='step'>
-    <include src="four.wxml" />
-  </swiper-item>
-  <swiper-item class='step'>
+
+<view class="bearwrap" hidden="{{aniIdx>0}}">
+  <image src="/images/112.jpg" mode="aspectFit" class="loadingbear"></image>
+  <view class="fontwrap">
+    <view class="anifont font0">幸</view>
+    <view class="anifont font1">福</view>
+    <view class="anifont font2">时</view>
+    <view class="anifont font3">刻</view>
+    <view class="anifont font4">要</view>
+    <view class="anifont font5">来</view>
+    <view class="anifont font6">喽</view>
+    <view class="anifont font7">~</view>
+  </view>
+</view>
+<swiper class="container" vertical="true" hidden="{{aniIdx<=0}}">
+  <swiper-item class='step {{aniIdx>=1?"one":""}}'>
     <include src="one.wxml" />
   </swiper-item>
   <swiper-item class='step'>
@@ -16,6 +21,24 @@
   </swiper-item>
   <swiper-item class='step'>
     <include src="three.wxml" />
+  </swiper-item>
+  <swiper-item class='step'>
+    <include src="four.wxml" />
+  </swiper-item>
+  <swiper-item class='step'>
+    <include src="five.wxml" />
+  </swiper-item>
+  <swiper-item class='step'>
+    <include src="six.wxml" />
+  </swiper-item>
+  <swiper-item class='step'>
+    <include src="seven.wxml" />
+  </swiper-item>
+  <swiper-item class='step'>
+    <include src="eight.wxml" />
+  </swiper-item>
+  <swiper-item class='step'>
+    <include src="nine.wxml" />
   </swiper-item>
 </swiper>
 <view hidden="{{!isLoading}}">

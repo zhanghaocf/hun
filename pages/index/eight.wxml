@@ -1,0 +1,18 @@
+<view class="wrap7">
+  <view class="top7">
+    <image class="girll8" src="/images/girl4.jpg" mode="widthFix"></image>
+    <image class="boy8" src="/images/boy3.jpg" mode="widthFix"></image>
+    <image class="tl7" mode="widthFix" src="/images/148.jpg"></image>
+    <image class="tr7" mode="widthFix" src="/images/147.jpg"></image>
+    <image src="/images/134.jpg" mode="widthFix" class="lc8"></image>
+    <image src="/images/135.jpg" mode="widthFix" class="rc8"></image>
+  </view>
+  <view class="middle7">
+    <image mode="aspectFill" class="middel7bg" src="/images/twobg.jpg"></image>
+    <image mode="aspectFit" class="eightimg" src="{{eight}}"></image>
+  </view>
+  <view class="foot7 foot8">
+    <image src="/images/muban.jpg" mode="widthFix" class="tmuban"></image>
+    <image src="/images/mxrz.jpg" mode="widthFix" class="mxrz8"></image>
+  </view>
+</view>
