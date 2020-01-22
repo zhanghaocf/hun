@@ -12,32 +12,32 @@
     <view class="anifont font7">~</view>
   </view>
 </view>
-<swiper class="container" vertical="true" hidden="{{aniIdx<=0}}">
-  <swiper-item class='step {{aniIdx>=1?"one":""}}'>
+<swiper class="container" vertical="true" hidden="{{aniIdx<=0}}" bindchange="changeFn">
+  <!-- <swiper-item class='step {{aniIdx>=1?"one":""}}'>
     <include src="one.wxml" />
   </swiper-item>
-  <swiper-item class='step'>
+  <swiper-item class='step {{aniIdx>=2?"two":""}}'>
     <include src="two.wxml" />
-  </swiper-item>
+  </swiper-item> -->
   <swiper-item class='step'>
     <include src="three.wxml" />
   </swiper-item>
-  <swiper-item class='step'>
+  <swiper-item class='step {{aniIdx>=4?"four":""}}'>
     <include src="four.wxml" />
   </swiper-item>
-  <swiper-item class='step'>
+  <swiper-item class='step {{aniIdx>=5?"five":""}}'>
     <include src="five.wxml" />
   </swiper-item>
-  <swiper-item class='step'>
+  <swiper-item class='step {{aniIdx>=6?"six":""}}'>
     <include src="six.wxml" />
   </swiper-item>
-  <swiper-item class='step'>
+  <swiper-item class='step {{aniIdx>=7?"seven":""}}'>
     <include src="seven.wxml" />
   </swiper-item>
-  <swiper-item class='step'>
+  <swiper-item class='step {{aniIdx>=8?"eight":""}}'>
     <include src="eight.wxml" />
   </swiper-item>
-  <swiper-item class='step'>
+  <swiper-item class='step {{aniIdx>=9?"nine":""}}'>
     <include src="nine.wxml" />
   </swiper-item>
 </swiper>

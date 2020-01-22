@@ -1,0 +1,84 @@
+.bg3 .laguage3{
+  opacity: 0;
+  animation: 0.8s 0s linear forwards;
+}
+.three .laguage3{
+  animation-name: bg3laguage3;
+}
+@keyframes bg3laguage3 {
+  from {
+    transform: translate3d(-200rpx, 0, 0) rotate(-270deg);
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.bg3 .im3,.bg3 .groom3{
+  opacity: 0;
+  animation: 0.8s 0s linear forwards;
+}
+.three .im3{
+  animation-name: bg3im3;
+}
+.three .groom3{
+  animation-name:bg3groom3
+}
+@keyframes bg3im3 {
+  from {
+    opacity: 0;
+    transform: translate3d(-50rpx, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+@keyframes bg3groom3 {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.three .diao3{
+  animation: bg3downdiao3 1s linear 0s,bg3diao3 3s linear 1.2s infinite;
+}
+@keyframes bg3downdiao3{
+  from{
+    opacity: 0;
+    transform: translateY(-100rpx)
+  }
+  20%{
+    opacity: 1;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes bg3diao3{
+  10%{
+    transform: rotate(25deg);
+  }
+  30%{
+    transform: rotate(-25deg);
+  }
+  50%{
+    transform: rotate(12deg);
+  }
+  70%{
+    transform: rotate(-12deg);
+  }
+  80%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}

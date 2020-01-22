@@ -1,3 +1,4 @@
+@import "bg3.wxss";
 .zs3{
   width:120rpx;
   margin-left: 180rpx;

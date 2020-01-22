@@ -1,3 +1,4 @@
+<view class="{{classname}} {{activeClass}}">
 <image class="zs3" mode="widthFix" src="/images/hh.jpg"></image>
 <image src="/images/l3.jpg" mode="widthFix" class="l3"></image>
 <image src="/images/r3.jpg" mode="widthFix" class="r3"></image>
@@ -29,4 +30,5 @@
   <image mode="widthFix" src="/images/rr3.jpg" class="rr3"></image>
   <image mode="widthFix" src="/images/lh3.jpg" class="lh3"></image>
   <image mode="widthFix" src="/images/xrq3.jpg" class="xrq3"></image>
+</view>
 </view>

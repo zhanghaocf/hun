@@ -1,0 +1,6 @@
+.ofoot6{
+  position:absolute;
+  bottom: -220rpx;
+  width:100%;
+  animation: 0.6s 2.8s ease-in forwards;
+}

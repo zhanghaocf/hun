@@ -20,6 +20,6 @@
   <image mode="widthFix" src="/images/l3.jpg" class="cao6"></image>
   <image mode="widthFix" src="/images/flower.jpg" class="hua6"></image>
 </view>
-<view class="ofoot">
+<view class="ofoot6">
   <image src="/images/ground.jpg" class="oground" mode="widthFix"></image>
 </view>

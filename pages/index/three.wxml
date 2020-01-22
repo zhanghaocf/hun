@@ -1,1 +1,1 @@
-<boygirl boyname="{{boyname}}" img="{{boyimg}}"></boygirl>
+<boygirl classname="bg3" activeClass="{{aniIdx>=3?'three':''}}" boyname="{{boyname}}" img="{{boyimg}}"></boygirl>

@@ -343,28 +343,121 @@
   height:100rpx;
 }
 .ovase{
-  left:20rpx;
+  /* left:20rpx; */
   width:100rpx;
   position:absolute;
   bottom:280rpx;
+  left:-1314rpx;
+  opacity: 0;
+  animation: 0.8s 4s ease-out forwards;
+}
+.one .ovase{
+  animation-name: ovase
+}
+@keyframes ovase{
+  from{
+    opacity:1;
+  }
+  50%{
+    left:80rpx;
+  }
+  75%{
+    left:0rpx;
+  }
+  90%{
+    left:10rpx;
+  }
+  to{
+    left:20rpx;
+    opacity: 1;
+  }
 }
 .oxrz{
   width:120rpx;
-  left:130rpx;
+  left:-1314rpx;
+  opacity: 0;
   position:absolute;
   bottom:270rpx;
+  animation: 0.8s 3.8s ease-out forwards;
+}
+.one .oxrz{
+  animation-name: oxrz
+}
+@keyframes oxrz{
+  from{
+    opacity:1;
+  }
+  50%{
+    left:200rpx;
+  }
+  75%{
+    left:100rpx;
+  }
+  90%{
+    left:150rpx;
+  }
+  to{
+    left:130rpx;
+    opacity: 1;
+  }
 }
 .orr{
   width:130rpx;
-  left:260rpx;
+  left:0rpx;
+  opacity: 0;
+  animation: 0.8s 4.2s linear forwards;
   position:absolute;
   bottom:310rpx;
 }
+.one .orr{
+  animation-name: orr;
+}
+@keyframes orr{
+  from{
+    opacity: 1;
+  }
+  30%{
+    left:360rpx;
+  }
+  55%{
+    left:220rpx;
+  }
+  70%{
+    left:270rpx;
+  }
+  to{
+    left:260rpx;
+    opacity: 1;
+  }
+}
 .olz{
   width:180rpx;
-  left:400rpx;
+  left:1090rpx;
+  opacity: 0;
   position:absolute;
   bottom:310rpx;
+  animation: 0.8s 3.6s ease-out forwards;
+}
+.one .olz{
+  animation-name: olz;
+}
+@keyframes olz{
+  from{
+    opacity: 1;
+  }
+  50%{
+    left:290rpx;
+  }
+  75%{
+    left:420rpx;
+  }
+  90%{
+    left:390rpx;
+  }
+  to{
+    left:400rpx;
+    opacity: 1;
+  }
 }
 .opz{
   width:150rpx;

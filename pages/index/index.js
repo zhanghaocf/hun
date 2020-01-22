@@ -35,19 +35,26 @@ Page({
   },
   loadingFn(){
     setTimeout(()=>{
-      this.pageAdd()
-    },2000)
+      this.pageAdd(12)
+    },1000)
   },
-  pageAdd(){
+  pageAdd(num){
     let { aniIdx } = this.data;
-    aniIdx = aniIdx >= 10 ? 10 : ++aniIdx
+    if (aniIdx>=num){
+      return;
+    }
     this.setData({
-      aniIdx
+      aniIdx:num
     })
+    console.log("aniIdx::",this.data.aniIdx)
   },
   timeynd(str){
     let dat = new Date(str);
     return `${dat.getFullYear()}-${dat.getMonth()+1}-${dat.getDate()}`;
+  },
+  changeFn(e){
+    // let {current} = e.detail
+    // let num = +current+1;
+    // this.pageAdd(num)
   }
-
 })
