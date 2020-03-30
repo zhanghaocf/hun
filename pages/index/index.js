@@ -1,42 +1,85 @@
 //index.js
-const app = getApp()
+const app = getApp();
+var audio = null;
 import { getconfig } from '../../utils/api.js'
 Page({
   data: {
+    play:true,
     aniIdx:0,
-    isLoading:false,
-    time:'2020-10-01',
-    boyname:'张豪',
-    girlname:'陈芳',
-    endWord:'2020-10-02\n见证我们的幸福',
-    detail:'在最美好的年华\n遇见最爱的人\n沉浸在幸福中的我们将于\n2020年10月10号（星期天）\n举办婚礼\n新郎：男的 新娘：女的\n敬邀光临\n时间：11：58\n席设：我家\n地址：江苏省无锡市宜兴市张渚镇\n期盼您的到来\n见证我们最幸福的时刻',
-    boyimg:'cloud://zhcf-6pee6.7a68-zhcf-6pee6/rz.jpg',
-    girlimg: 'cloud://zhcf-6pee6.7a68-zhcf-6pee6/rz.jpg',
-    boyl:'cloud://zhcf-6pee6.7a68-zhcf-6pee6/rz.jpg',
-    girlr:'cloud://zhcf-6pee6.7a68-zhcf-6pee6/rz.jpg',
-    six1: 'cloud://zhcf-6pee6.7a68-zhcf-6pee6/rz.jpg',
-    six2: 'cloud://zhcf-6pee6.7a68-zhcf-6pee6/rz.jpg',
-    seven: 'cloud://zhcf-6pee6.7a68-zhcf-6pee6/rz.jpg',
-    eight: 'cloud://zhcf-6pee6.7a68-zhcf-6pee6/rz.jpg',
-    nine: 'cloud://zhcf-6pee6.7a68-zhcf-6pee6/rz.jpg'
+    time:'',
+    boyname:'',
+    girlname:'',
+    endWord:'2020-05-30\n见证我们的幸福',
+    detail:'',
+    boyimg:'',
+    girlimg: '',
+    boyl:'',
+    girlr:'',
+    six1: '',
+    six2: '',
+    seven: '',
+    eight: '',
+    nine: ''
   },
-
+  playfn(){
+    let {play} = this.data;
+    play = !play;
+    if(!play){
+      audio.pause();
+    }else{
+      audio.play();
+    }
+    this.setData({
+      play
+    })
+  },
+  initmusic(){
+    audio = wx.createInnerAudioContext&&wx.createInnerAudioContext();
+    audio.autoplay = true;
+    audio.src="cloud://zhcf-6pee6.7a68-zhcf-6pee6-1257706133/music/love.mp3";
+    audio.loop=true;
+    audio.play();
+    audio.onError((res) => {
+      console.log(res.errMsg)
+      console.log(res.errCode)
+    })
+  },
   onLoad: function() {
-    this.loadingFn()
-    // getconfig(this).then(res=>{
-    //   let { time, boyname, girlname} = res;
-    //   let t = this.timeynd(time);
-    //   this.setData({
-    //     boyname,
-    //     girlname,
-    //     time:t
-    //   })
-    // })
-  },
-  loadingFn(){
-    setTimeout(()=>{
-      this.pageAdd(12)
-    },1000)
+    this.initmusic();
+    getconfig(this).then(res=>{
+      let { time,
+            boyname,
+            girlname,
+            detail,
+            boyimg,
+            girlimg,
+            boyl,
+            girlr,
+            six1,
+            six2,
+            seven,
+            eight,
+            nine} = res;
+      let t = this.timeynd(time);
+      detail = detail.replace(/\\n/g,"\n");
+      this.setData({
+        boyname,
+        girlname,
+        time:t,
+        detail,
+        boyimg,
+        girlimg,
+        boyl,
+        girlr,
+        six1,
+        six2,
+        seven,
+        eight,
+        nine
+      },()=>{
+        this.pageAdd(1)
+      })
+    })
   },
   pageAdd(num){
     let { aniIdx } = this.data;
@@ -53,8 +96,8 @@ Page({
     return `${dat.getFullYear()}-${dat.getMonth()+1}-${dat.getDate()}`;
   },
   changeFn(e){
-    // let {current} = e.detail
-    // let num = +current+1;
-    // this.pageAdd(num)
+    let {current} = e.detail
+    let num = +current+1;
+    this.pageAdd(num)
   }
 })

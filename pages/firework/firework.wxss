@@ -1,5 +1,0 @@
-/* pages/firework/firework.wxss */
-#cas{
-  width:100%;
-  height:100vh;
-}

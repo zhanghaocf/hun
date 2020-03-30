@@ -15,14 +15,14 @@
     opacity: 1;
   }
 }
-.bg3 .im3,.bg3 .groom3{
+.bg3 .im3,.bg3 .groom3,.bg3 .bride3{
   opacity: 0;
   animation: 0.8s 0s linear forwards;
 }
 .three .im3{
   animation-name: bg3im3;
 }
-.three .groom3{
+.three .groom3,.three .bride3{
   animation-name:bg3groom3
 }
 @keyframes bg3im3 {
@@ -48,7 +48,7 @@
   }
 }
 .three .diao3{
-  animation: bg3downdiao3 1s linear 0s,bg3diao3 3s linear 1.2s infinite;
+  animation: bg3downdiao3 1s linear 0s forwards,bg3diao3 3s linear 1.2s infinite;
 }
 @keyframes bg3downdiao3{
   from{
@@ -80,5 +80,313 @@
   }
   100%{
     transform: rotate(0);
+  }
+}
+.bg3 .boy3,.bg3 .girl3{
+  opacity: 0;
+  animation: 1s 0s linear forwards;
+}
+.three .boy3,.three .girl3{
+  animation-name: bg3boy3;
+}
+@keyframes bg3boy3{
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(-50%, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(-50%, -20px, 0);
+  }
+
+  75% {
+    opacity: 1;
+    transform: translate3d(-50%, 10px, 0);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translate3d(-50%, -5px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.bg3 .l3,.bg3 .r3,.bg3 .nbg3{
+  opacity: 0;
+  animation: 0.8s 1s linear forwards;
+}
+.three .l3{
+  animation-name: bg3l3;
+}
+@keyframes bg3l3{
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.bg3 .nbg3{
+  opacity: 0;
+  animation: 1s 1s linear forwards;
+}
+.three .r3,.three .nbg3{
+  animation-name: bg3r3;
+}
+@keyframes bg3r3{
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.bg3 .xl3{
+  opacity: 0;
+  animation: 0.8s 1.6s linear forwards;
+  transform-origin: center center;
+}
+.three .xl3{
+  animation-name: bg3xl3;
+}
+@keyframes bg3xl3{
+  from {
+    transform:translateY(-150%);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform:translateY(-50%);
+  }
+}
+.bg3 .boyname3{
+  opacity: 0;
+  animation: 0.8s 1.8s linear forwards;
+}
+.three .boyname3{
+  animation-name: bg3boyname3;
+}
+@keyframes bg3boyname3{
+  from {
+    transform: translate3d(100%, -50%, 0);
+    opacity: 0;
+  }
+
+  60% {
+    transform:translateY(-50%);
+    opacity: 1;
+  }
+
+  80% {
+    transform:translateY(-50%);
+    opacity: 1;
+  }
+
+  to {
+    transform: translate3d(0, -50%, 0);
+    opacity: 1;
+  }
+}
+.bg3 .xin3{
+  opacity: 0;
+  animation: 0.3s 2.2s linear forwards;
+}
+.three .xin3{
+  animation-name: bg3xin3;
+}
+@keyframes bg3xin3{
+  from {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
+
+  to {
+    transform-origin: left bottom;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.three .boyimg3{
+  opacity: 0;
+  transform: skewX(0deg);
+  animation:bg3boyimg3 0.8s 2.3s linear forwards;
+}
+@keyframes bg3boyimg3{
+  from{
+    transform: scale(0.2) skewX(0deg);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1) skewX(0deg);
+  }
+}
+.bg3 .kuang3{
+  animation: 0.8s 3s linear forwards;
+}
+.three .kuang3{
+  animation-name: bg3kuang3;
+}
+@keyframes bg3kuang3{
+  from {
+    transform:skewX(45deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  80% {
+    transform:skewX(0deg);
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+     transform:skewX(15deg);
+  }
+
+  to {
+    opacity: 1;
+    transform:skewX(0deg);
+  }
+}
+.bg3 .zs3{
+  opacity: 0;
+  animation: 0.5s 3.8s linear forwards;
+}
+.bg3 .zsimg3{
+  opacity: 0;
+  animation: 1s 3s linear forwards;
+}
+.three .zs3{
+  animation-name: bg3zs3;
+}
+@keyframes bg3zs3{
+  from {
+    opacity: 0;
+    transform: translate3d(0, 150%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.three .zsimg3{
+  animation-name: bg3zsimg3;
+}
+@keyframes bg3zsimg3{
+  from{
+    transform: scale(0);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.bg3 .xrz3,.bg3 .xrq3{
+  opacity: 0;
+  animation: 1.3s 4.2s linear forwards;
+}
+.bg3 .lh3,.bg3 .g3{
+  opacity: 0;
+  animation: 1.8s 4.5s linear forwards;
+}
+.three .xrz3,.three .g3{
+  animation-name: bg3xrz3;
+}
+
+@keyframes bg3xrz3{
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000rpx, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    opacity: 1;
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.bg3 .rr3{
+  opacity: 0;
+  animation: 1.8s 4.2s linear forwards;
+}
+.three .rr3,.three .xrq3,.three .lh3{
+  animation-name: bg3rr3;
+}
+
+@keyframes bg3rr3{
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(3000rpx, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    opacity: 1;
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }

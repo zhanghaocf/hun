@@ -47,6 +47,7 @@
   position:absolute;
   top:-80rpx;
   right:30rpx;
+  opacity: 0;
 }
 .l3{
   width:180rpx;
@@ -66,9 +67,15 @@
   transform: translateX(-50%);
   transform: -webkit-translateX(-50%);
   top:340rpx;
+  width:450rpx;
+  height:108rpx;
 }
 .nbg3{
   width:450rpx;
+  position: absolute;
+  left:0;
+  top:0;
+  z-index: -1;
 }
 .xl3{
   width:90rpx;
@@ -96,12 +103,18 @@
 .headimgwrap{
   position:absolute;
   left:50%;
-  transform: translateX(-50%);
-  transform: -webkit-translateX(-50%);
+  transform:perspective(400px) translateX(-50%);
   top:440rpx;
+  width:600rpx;
+  height:542rpx;
 }
 .kuang3{
   width:600rpx;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  opacity: 0;
 }
 .boyimg3{
   width:545rpx;
@@ -109,6 +122,8 @@
   position: absolute;
   left:20rpx;
   top:30rpx;
+  opacity: 0;
+  z-index: 2;
 }
 .xin3{
   width:230rpx;

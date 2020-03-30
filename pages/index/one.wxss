@@ -3,7 +3,8 @@
   position:absolute;
   left:0;
   top:0;
-  animation:0.8s linear
+  animation:0.8s linear forwards;
+  opacity: 0;
 }
 .one .oleft{
   animation-name: oleft;
@@ -13,14 +14,17 @@
     left:600rpx;
     opacity: 0
   }
-  to{}
+  to{
+    opacity: 1;
+  }
 }
 .oright{
   width:50%;
   position:absolute;
   right:0;
   top:0;
-  animation:0.8s linear
+  opacity: 0;
+  animation:0.8s linear forwards;
 }
 .one .oright{
   animation-name: oright;
@@ -28,9 +32,11 @@
 @keyframes oright{
   from{
     right:600rpx;
-    opacity: 0
+    opacity: 0;
   }
-  to{}
+  to{
+    opacity: 1;
+  }
 }
 .oflower{
   width:220rpx;
@@ -301,7 +307,7 @@
   }
 }
 .ogn{
-  right:400rpx;
+  right:420rpx;
   opacity: 0;
   animation: 0.4s 3s linear forwards;
 }

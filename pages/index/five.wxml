@@ -16,9 +16,9 @@
   <image src="{{girlr}}" mode="aspectFill" class="girl5"></image>
 </view>
 <image mode="widthFix" class="diao5 diao5left" src="/images/diao3.jpg"></image>
-<image mode="widthFix" class="diao5 diao5right" src="/images/diao3.jpg"></image>
+<image mode="widthFix" class="diao5 diao5right" src="/images/diao5.png"></image>
 <view class="tfoot foot5">
-  <image src="/images/muban.jpg" mode="widthFix" class="tmuban"></image>
+  <image src="/images/muban.jpg" mode="widthFix" class="tmuban tmubanfive"></image>
   <image mode="widthFix" src="/images/xrz3.jpg" class="xrz5"></image>
   <image mode="widthFix" src="/images/g3.jpg" class="g5"></image>
   <image mode="widthFix" src="/images/rr3.jpg" class="rr5"></image>

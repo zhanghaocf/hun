@@ -1,4 +1,3 @@
-
 <view class="bearwrap" hidden="{{aniIdx>0}}">
   <image src="/images/112.jpg" mode="aspectFit" class="loadingbear"></image>
   <view class="fontwrap">
@@ -13,16 +12,16 @@
   </view>
 </view>
 <swiper class="container" vertical="true" hidden="{{aniIdx<=0}}" bindchange="changeFn">
-  <!-- <swiper-item class='step {{aniIdx>=1?"one":""}}'>
+  <swiper-item class='step {{aniIdx>=1?"one":""}}'>
     <include src="one.wxml" />
   </swiper-item>
   <swiper-item class='step {{aniIdx>=2?"two":""}}'>
     <include src="two.wxml" />
-  </swiper-item> -->
+  </swiper-item>
   <swiper-item class='step'>
     <include src="three.wxml" />
   </swiper-item>
-  <swiper-item class='step {{aniIdx>=4?"four":""}}'>
+  <swiper-item class='step'>
     <include src="four.wxml" />
   </swiper-item>
   <swiper-item class='step {{aniIdx>=5?"five":""}}'>
@@ -41,6 +40,4 @@
     <include src="nine.wxml" />
   </swiper-item>
 </swiper>
-<view hidden="{{!isLoading}}">
-  <zhLoading>祝福中</zhLoading>
-</view>
+<image catchtap="playfn" src="/images/music.png" mode="aspectFit" class="music {{play?'musicname':''}}"></image>
