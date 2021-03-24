@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText":"永恒",
   "usingComponents":{
     "boygirl":"/components/boygirl/boygirl"
   }

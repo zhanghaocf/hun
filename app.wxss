@@ -1,0 +1,13 @@
+.oneline{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis
+}
+.threeline{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  word-break: break-all;
+  text-overflow: ellipsis;
+}

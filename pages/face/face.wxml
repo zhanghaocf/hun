@@ -1,0 +1,6 @@
+<view class="flexwrap">
+  <view class="up">
+    <upg url="{{imgurl}}" catchupimg="uploadimg"/>
+  </view>
+  <view class="cutbtn" catchtap="cut" hover-class="activeBtn" hover-start-time="50" hover-stay-time="100" data-val="1">开始打分</view>
+</view>

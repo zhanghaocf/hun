@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText":"性别变化",
+  "usingComponents": {
+    "upg":"../../components/imgup/imgup"
+  }
+}

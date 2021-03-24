@@ -1,0 +1,9 @@
+<view class="kuang" bindtap="uploadimg">
+  <view hidden="{{url}}" class="addinfo">
+    <image mode="widthFix" src="/images/add.png" class="add" />
+    点击上传图片
+  </view>
+  <view wx:if="{{url}}">
+    <image mode="aspectFit" src="{{url}}" class="imgurl"/>
+  </view>
+</view>

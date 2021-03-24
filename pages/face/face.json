@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText":"人脸试别",
+  "usingComponents": {
+    "upg":"../../components/imgup/imgup"
+  }
+}

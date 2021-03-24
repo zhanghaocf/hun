@@ -1,0 +1,9 @@
+<view class="flexwrap">
+  <view class="up">
+    <upg url="{{imgurl}}" catchupimg="uploadimg"/>
+  </view>
+  <view class="btngroup">
+    <view class="cutbtn" catchtap="cut" hover-class="activeBtn" hover-start-time="50" hover-stay-time="100" data-val="1">变男</view>
+    <view class="cutbtn" catchtap="cut" hover-class="activeBtn" hover-start-time="50" hover-stay-time="100" data-val="0">变女</view>
+  </view>
+</view>

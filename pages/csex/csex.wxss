@@ -1,0 +1,39 @@
+page{
+  box-sizing: border-box;
+  height:100%;
+  overflow: hidden;
+}
+.flexwrap{
+  display: flex;
+  height:100vh;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+.up{
+  width:686rpx;
+  margin: 40rpx auto 48rpx;
+  flex-grow: 1;
+}
+.btngroup{
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.cutbtn{
+  font-size: 34rpx;
+  flex-basis: 49%;
+  color:white;
+  width:686rpx;
+  height:88rpx;
+  border-radius: 12rpx;
+  background-color: #4710ED;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin:0 auto 35rpx;
+}
+.activeBtn{
+  background-color: rgba(71,16,237,0.5);
+}

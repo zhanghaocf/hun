@@ -19,7 +19,8 @@ Page({
     six2: '',
     seven: '',
     eight: '',
-    nine: ''
+    nine: '',
+    shareimg:''
   },
   playfn(){
     let {play} = this.data;
@@ -46,7 +47,7 @@ Page({
   },
   onLoad: function() {
     this.initmusic();
-    getconfig(this).then(res=>{
+    getconfig().then(res=>{
       let { time,
             boyname,
             girlname,
@@ -59,9 +60,11 @@ Page({
             six2,
             seven,
             eight,
-            nine} = res;
+            nine,
+            shareimg} = res;
       let t = this.timeynd(time);
       detail = detail.replace(/\\n/g,"\n");
+      this.data.shareimg=shareimg;
       this.setData({
         boyname,
         girlname,
@@ -94,6 +97,13 @@ Page({
   timeynd(str){
     let dat = new Date(str);
     return `${dat.getFullYear()}-${dat.getMonth()+1}-${dat.getDate()}`;
+  },
+  onShareAppMessage(){
+    let {shareimg} = this.data
+    return {
+      title:'豪豪与芳芳要结婚啦！！！',
+      imageUrl:shareimg
+    }
   },
   changeFn(e){
     let {current} = e.detail

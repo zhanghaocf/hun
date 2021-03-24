@@ -1,0 +1,55 @@
+/* pages/csex/csex.wxss */page{
+  box-sizing: border-box;
+  height:100%;
+  overflow: hidden;
+}
+.flexwrap{
+  display: flex;
+  height:100vh;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+.kuang{
+  width:686rpx;
+  flex-grow: 1;
+  border-radius: 16rpx;
+  border: 2rpx dashed #D8D8D8;
+  margin: 40rpx auto 48rpx;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.addinfo{
+  font-size: 26rpx;
+  color:rgba(48,49,51,0.4);
+  text-align: center;
+}
+.add{
+  width:128rpx;
+  height:128rpx;
+  display: block;
+  margin:0 auto 48rpx;
+}
+.imgurl{
+  width:558rpx;
+  height:712rpx;
+}
+.cutbtn{
+  font-size: 34rpx;
+  color:white;
+  width:686rpx;
+  height:88rpx;
+  border-radius: 12rpx;
+  background-color: #4710ED;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin:0 auto 35rpx;
+}
+.activeBtn{
+  background-color: rgba(71,16,237,0.5);
+}

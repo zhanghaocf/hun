@@ -1,13 +1,21 @@
 {
   "pages": [
-    "pages/index/index"
+    
+    "pages/face/face",
+    "pages/menu/menu",
+    "pages/csex/csex",
+    "pages/index/index",
+    "pages/result/result"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "邀请贴",
+    "navigationBarTitleText": "油盐酱醋",
     "navigationBarTextStyle": "black"
+  },
+  "useExtendedLib": {
+    "weui": true
   },
   "sitemapLocation": "sitemap.json"
 }

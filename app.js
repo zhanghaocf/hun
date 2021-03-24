@@ -17,6 +17,26 @@ App({
 
     this.globalData = {}
   },
+  globalData:{
+  },
+  confirmFn(msg,title,txt1,txt2) {
+    return new Promise((resolve, reject) => {
+      wx.showModal({
+        title,
+        content:msg,
+        confirmText:txt1,
+        ...txt2&&{cancelText:txt2},
+        ...!txt2&&{showCancel:false},
+        success(res) {
+          res.confirm && resolve('');
+          res.cancel && reject('');
+        },
+        fail(err){
+          console.log(err)
+        }
+      });
+    });
+  },
   autoupdate(){
     const updateManager = wx.getUpdateManager&&wx.getUpdateManager();
     if (!updateManager){

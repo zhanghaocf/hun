@@ -1,0 +1,6 @@
+<view class="flexwrap">
+  <view class="kuang">
+      <image mode="aspectFit" src="{{imgurl}}" class="imgurl"/>
+  </view>
+  <view class="cutbtn" catchtap="downFn" hover-class="activeBtn" hover-start-time="50" hover-stay-time="100">下载到本地</view>
+</view>

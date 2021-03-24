@@ -1,0 +1,27 @@
+.kuang{
+  width:100%;
+  height:100%;
+  border-radius: 16rpx;
+  border: 2rpx dashed #D8D8D8;
+  
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.addinfo{
+  font-size: 26rpx;
+  color:rgba(48,49,51,0.4);
+  text-align: center;
+}
+.add{
+  width:128rpx;
+  height:128rpx;
+  display: block;
+  margin:0 auto 48rpx;
+}
+.imgurl{
+  width:558rpx;
+  height:712rpx;
+}
